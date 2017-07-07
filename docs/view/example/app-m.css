@@ -1,0 +1,7 @@
+.content {
+  font-weight: bold;
+  background: url("/view/example/logo.png");
+}
+.content :global(.m-btn) {
+  width: 150px;
+}

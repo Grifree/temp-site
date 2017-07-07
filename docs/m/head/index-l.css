@@ -1,0 +1,30 @@
+.m-head {
+  height: 74px;
+  line-height: 74px;
+}
+.m-head-nav-bd-item {
+  height: 74px;
+  margin-left: 25px;
+  margin-right: 25px;
+  padding-top: 27px;
+  padding-bottom: 27px;
+  font-size: 16px;
+  line-height: 20px;
+}
+.m-head-nav-bd-item:before {
+  bottom: 25px;
+}
+.m-head-nav-bd-item--on:before {
+  bottom: 25px;
+}
+.m-head-tool-logo {
+  height: 44px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-right: 45px;
+}
+.m-head-tool-btn {
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 26px;
+}

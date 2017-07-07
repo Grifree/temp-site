@@ -1,0 +1,32 @@
+@font-face {
+  font-family: "iconfont";
+  src: url('/m/icons/iconfont.eot');
+  /* IE9*/
+  src: url('/m/icons/iconfont.eot') format('embedded-opentype'), /* IE6-IE8 */ url('/m/icons/iconfont.woff') format('woff'), /* chrome, firefox */ url('/m/icons/iconfont.ttf') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/ url('/m/icons/iconfont.svg') format('svg');
+  /* iOS 4.1- */
+}
+.m-screen {
+  padding-top: 4rem;
+  padding-bottom: 1.6rem;
+}
+.m-screen-bd-hd {
+  font-size: 1.6rem;
+  line-height: 2.50666667rem;
+}
+.m-screen-bd-title {
+  font-size: 1.06666667rem;
+  line-height: 1.5;
+}
+.m-screen-bd-text {
+  font-size: 0.8rem;
+  line-height: 1.17333333rem;
+  margin-top: 2.13333333rem;
+}
+.m-screen-bd-link {
+  font-size: 0.53333333rem;
+  line-height: 0.90666667rem;
+}
+.m-screen-bd-tool {
+  font-size: 0.42666667rem;
+  line-height: 1.2;
+}

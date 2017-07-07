@@ -1,0 +1,47 @@
+.m-board {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.m-board-hd {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 25px;
+  line-height: 60px;
+  color: #08e5bc;
+}
+.m-board-title {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 14px;
+  line-height: 40px;
+  color: #707070;
+}
+@media screen and (max-width: 650px) {
+  @font-face {
+    font-family: "iconfont";
+    src: url('/m/icons/iconfont.eot');
+    /* IE9*/
+    src: url('/m/icons/iconfont.eot') format('embedded-opentype'), /* IE6-IE8 */ url('/m/icons/iconfont.woff') format('woff'), /* chrome, firefox */ url('/m/icons/iconfont.ttf') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/ url('/m/icons/iconfont.svg') format('svg');
+    /* iOS 4.1- */
+  }
+  .m-board-hd {
+    font-size: 1.17333333rem;
+    line-height: 2.13333333rem;
+  }
+  .m-board-title {
+    font-size: 0.64rem;
+    line-height: 1.6rem;
+  }
+}
+@media screen and (min-width: 1850px) {
+  .m-board-hd {
+    font-size: 44px;
+    line-height: 80px;
+  }
+  .m-board-title {
+    font-size: 24px;
+    line-height: 60px;
+  }
+}

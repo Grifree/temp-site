@@ -1,0 +1,42 @@
+.m-foot {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 20px;
+}
+.m-foot-bd {
+  text-align: center;
+}
+.m-foot-bd-item {
+  display: inline-block;
+  vertical-align: middle;
+  height: auto;
+  width: 16%;
+  text-align: center;
+  margin-left: 2.5%;
+}
+.m-foot-bd-item:first-child {
+  margin-left: 0;
+}
+.m-foot-bd-item-pic {
+  width: auto;
+  max-width: 100%;
+  height: 30px;
+}
+@media screen and (max-width: 650px) {
+  @font-face {
+    font-family: "iconfont";
+    src: url('/m/icons/iconfont.eot');
+    /* IE9*/
+    src: url('/m/icons/iconfont.eot') format('embedded-opentype'), /* IE6-IE8 */ url('/m/icons/iconfont.woff') format('woff'), /* chrome, firefox */ url('/m/icons/iconfont.ttf') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/ url('/m/icons/iconfont.svg') format('svg');
+    /* iOS 4.1- */
+  }
+  .m-foot-bd-item-pic {
+    height: 1.6rem;
+  }
+}
+@media screen and (min-width: 1850px) {
+  .m-foot-bd-item-pic {
+    height: 60px;
+  }
+}

@@ -1,0 +1,25 @@
+.m-foot {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 20px;
+}
+.m-foot-bd {
+  text-align: center;
+}
+.m-foot-bd-item {
+  display: inline-block;
+  vertical-align: middle;
+  height: auto;
+  width: 16%;
+  text-align: center;
+  margin-left: 2.5%;
+}
+.m-foot-bd-item:first-child {
+  margin-left: 0;
+}
+.m-foot-bd-item-pic {
+  width: auto;
+  max-width: 100%;
+  height: 30px;
+}

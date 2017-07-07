@@ -1,0 +1,15 @@
+@font-face {
+  font-family: "iconfont";
+  src: url('/m/icons/iconfont.eot');
+  /* IE9*/
+  src: url('/m/icons/iconfont.eot') format('embedded-opentype'), /* IE6-IE8 */ url('/m/icons/iconfont.woff') format('woff'), /* chrome, firefox */ url('/m/icons/iconfont.ttf') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/ url('/m/icons/iconfont.svg') format('svg');
+  /* iOS 4.1- */
+}
+.m-board-hd {
+  font-size: 1.17333333rem;
+  line-height: 2.13333333rem;
+}
+.m-board-title {
+  font-size: 0.64rem;
+  line-height: 1.6rem;
+}

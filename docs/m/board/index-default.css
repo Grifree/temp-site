@@ -1,0 +1,20 @@
+.m-board {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.m-board-hd {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 25px;
+  line-height: 60px;
+  color: #08e5bc;
+}
+.m-board-title {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 14px;
+  line-height: 40px;
+  color: #707070;
+}

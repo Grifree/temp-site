@@ -1,0 +1,63 @@
+@font-face {
+  font-family: "iconfont";
+  src: url('/m/icons/iconfont.eot');
+  /* IE9*/
+  src: url('/m/icons/iconfont.eot') format('embedded-opentype'), /* IE6-IE8 */ url('/m/icons/iconfont.woff') format('woff'), /* chrome, firefox */ url('/m/icons/iconfont.ttf') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/ url('/m/icons/iconfont.svg') format('svg');
+  /* iOS 4.1- */
+}
+.m-triangle-example:before {
+  content: '';
+  display: inline-block;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  line-height: 0;
+  font-size: 0;
+  vertical-align: middle;
+  border-bottom: 5px solid #abcdef;
+  border-top: 0 none;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+}
+.m-triangle-example:after {
+  content: '';
+  display: inline-block;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  line-height: 0;
+  font-size: 0;
+  vertical-align: middle;
+  border-top: 5px solid blue;
+  border-bottom: 0 none;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+}
+.m-triangle-demo:after {
+  content: '';
+  display: inline-block;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  line-height: 0;
+  font-size: 0;
+  vertical-align: middle;
+  border-right: 5px solid orange;
+  border-left: 0 none;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+}
+.m-triangle-demo:before {
+  content: '';
+  display: inline-block;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  line-height: 0;
+  font-size: 0;
+  vertical-align: middle;
+  border-left: 5px solid pink;
+  border-right: 0 none;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+}

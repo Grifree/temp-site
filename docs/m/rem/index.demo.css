@@ -1,0 +1,19 @@
+@font-face {
+  font-family: "iconfont";
+  src: url('/m/icons/iconfont.eot');
+  /* IE9*/
+  src: url('/m/icons/iconfont.eot') format('embedded-opentype'), /* IE6-IE8 */ url('/m/icons/iconfont.woff') format('woff'), /* chrome, firefox */ url('/m/icons/iconfont.ttf') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/ url('/m/icons/iconfont.svg') format('svg');
+  /* iOS 4.1- */
+}
+.m-rem-example {
+  border-bottom: 1px solid blue;
+  width: 20rem;
+}
+.m-rem-example-box {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 9.86666667rem;
+  height: 9.86666667rem;
+  background-color: pink;
+}

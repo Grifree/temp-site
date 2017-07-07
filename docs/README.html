@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" ></meta>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no" />
+    <meta name="format-detection" content="telphone=no, email=no"/>
+    <!--<script src="/m/rem/meta.js"></script>-->
+    <link rel="shortcut icon" href="/view/common/favicon.ico" />
+    <link rel="stylesheet" href="/view/common/index.css">
+    <meta name="keywords" content="">
+    <meta name="description"  content="">
+    <!-- Polyfills -->
+<!-- console-polyfill es5-shim es5-shim/es5-sham es6-shim es6-shim/es6-sham html5shiv media-match -->
+<!--[if lt IE 10]>
+<script src="/base/vendor/support-ie8/polyfill-lt-ie10.js"></script>
+<![endif]-->
+<!-- es6-shim es6-shim/es6-sham-->
+<!--[if lte IE 11]>
+<script src="/base/vendor/support-ie8/polyfill-lte-ie11.js"></script>
+<![endif]-->
+<script src="/base/vendor/support-ie8/es6-promise.auto.js"></script>
+
+
+<title>fast-flow/react-project</title>
+<link rel="stylesheet" type="text/css" href="https://unpkg.com/markrun-themes@latest/box.css" />
+<style>.hljs{display:block;overflow-x:auto;padding:0.5em;color:#abb2bf;background:#282c34}.hljs-comment,.hljs-quote{color:#5c6370;font-style:italic}.hljs-doctag,.hljs-keyword,.hljs-formula{color:#c678dd}.hljs-section,.hljs-name,.hljs-selector-tag,.hljs-deletion,.hljs-subst{color:#e06c75}.hljs-literal{color:#56b6c2}.hljs-string,.hljs-regexp,.hljs-addition,.hljs-attribute,.hljs-meta-string{color:#98c379}.hljs-built_in,.hljs-class .hljs-title{color:#e6c07b}.hljs-attr,.hljs-variable,.hljs-template-variable,.hljs-type,.hljs-selector-class,.hljs-selector-attr,.hljs-selector-pseudo,.hljs-number{color:#d19a66}.hljs-symbol,.hljs-bullet,.hljs-link,.hljs-meta,.hljs-selector-id,.hljs-title{color:#61aeee}.hljs-emphasis{font-style:italic}.hljs-strong{font-weight:bold}.hljs-link{text-decoration:underline}</style></head>
+<body>
+<h1 id="fast-flow/react-project" ><a class="markrun-anchor" href="#fast-flow/react-project"><span class="markrun-anchor-link"></span></a>fast-flow/react-project</h1><p><a href="/fms/">Mock server console</a></p>
+<p><a href="./m/README.html">module</a></p>
+<h2 id="Install" ><a class="markrun-anchor" href="#Install"><span class="markrun-anchor-link"></span></a>Install</h2><ul>
+<li><a href="https://yarnpkg.com/zh-Hans/docs/install">安装 yarn</a></li>
+<li><a href="https://yarnpkg.com/en/docs/install">Install yarn</a></li>
+</ul>
+<pre><code class="lang-shell"><span class="hljs-meta">#</span><span class="bash"> 你可以将 yarn切换 taobao 源</span>
+<span class="hljs-meta">#</span><span class="bash"> yarn config <span class="hljs-built_in">set</span> registry https://registry.npm.taobao.org</span>
+yarn global add fis3 nodemon webpack@1.13.2
+</code></pre>
+<pre><code class="lang-shell">yarn <span class="hljs-keyword">install</span>
+</code></pre>
+<h2 id="Develop" ><a class="markrun-anchor" href="#Develop"><span class="markrun-anchor-link"></span></a>Develop</h2><pre><code class="lang-shell"><span class="hljs-comment"># See compile the details: npm run dev:debug</span>
+npm <span class="hljs-keyword">run</span><span class="bash"> dev
+</span><span class="hljs-comment"># Test IE8: npm run js:debug</span>
+npm <span class="hljs-keyword">run</span><span class="bash"> js
+</span><span class="hljs-comment"># After open the browser to refresh the page</span>
+npm <span class="hljs-keyword">run</span><span class="bash"> s</span>
+</code></pre>
+<h2 id="Manual" ><a class="markrun-anchor" href="#Manual"><span class="markrun-anchor-link"></span></a>Manual</h2><p>必须阅读</p>
+<ol>
+<li><a href="./m/centerbox/README.html">m/centerbox/README.md</a></li>
+<li><a href="./m/clear/README.html">m/clear/README.md</a></li>
+<li><a href="./m/rem/README.html">m/rem/README.md</a></li>
+<li><a href="./m/triangle/README.html">m/triangle/README.md</a></li>
+<li><a href="./m/icons/README.html">m/icons/README.md</a></li>
+</ol>
+<h3 id="mobile use rem" ><a class="markrun-anchor" href="#mobile use rem"><span class="markrun-anchor-link"></span></a>mobile use rem</h3><p>如果需要使用 rem 适配移动端请 取消 <code>view/common/doctype.html</code> 中对 <code>m/rem/meta.js</code> 的注释</p>
+<p><a href="https://github.com/fast-flow/lessrem">fast-flow/lessrem</a>  <a href="./m/rem/index.demo.html">m/rem/index.demo.html</a></p>
+<h2 id="Publish" ><a class="markrun-anchor" href="#Publish"><span class="markrun-anchor-link"></span></a>Publish</h2><pre><code class="lang-shell">npm <span class="hljs-keyword">run</span><span class="bash"> online
+</span><span class="hljs-comment">## or</span>
+npm <span class="hljs-keyword">run</span><span class="bash"> online:debug
+</span>npm <span class="hljs-keyword">run</span><span class="bash"> deploy:qiniu
+</span>npm install -g cpy
+<span class="hljs-comment">## or yarn global add cpy</span>
+npm <span class="hljs-keyword">run</span><span class="bash"> deploy:svn</span>
+</code></pre><script>
+document.write('<sc' + 'ript src="/dev.js"></sc' + 'ript>')
+</script>
+<script src="https://unpkg.com/clipboard@1.6.1/dist/clipboard.min.js" ></script>
+<script src="https://unpkg.com/markrun-themes@latest/box.js"></script>
+<script>document.write('<script data-fastbuild-livereload="true" src="http://' + (location.host || 'localhost').split(':')[0] + ':22277/livereload.js?snipver=1"></' + 'script>')</script> </body>
+</html>

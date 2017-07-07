@@ -1,0 +1,24 @@
+.m-example {
+  width: 100%;
+  border: 1px dashed green;
+}
+.m-example-hd {
+  font-size: 20px;
+  line-height: 1.5;
+}
+.m-example-bd {
+  border: 1px dotted blue;
+}
+.m-example-bd-nav {
+  width: 100%;
+  display: block;
+  font-size: 20px;
+  line-height: 1.5;
+  border-bottom: 1px solid black;
+}
+.m-example-bd-cnt {
+  width: 100%;
+  display: block;
+  font-size: 18px;
+  line-height: 2;
+}

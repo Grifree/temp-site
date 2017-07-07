@@ -1,0 +1,7 @@
+.m-example {
+  font-size: rem(12);
+  border: rem(3) solid yellow;
+}
+.m-example-bd {
+  display: none;
+}

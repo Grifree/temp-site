@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" ></meta>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no" />
+    <meta name="format-detection" content="telphone=no, email=no"/>
+    <!--<script src="/m/rem/meta.js"></script>-->
+    <link rel="shortcut icon" href="/view/common/favicon.ico" />
+    <link rel="stylesheet" href="/view/common/index.css">
+    <meta name="keywords" content="">
+    <meta name="description"  content="">
+    <!-- Polyfills -->
+<!-- console-polyfill es5-shim es5-shim/es5-sham es6-shim es6-shim/es6-sham html5shiv media-match -->
+<!--[if lt IE 10]>
+<script src="/base/vendor/support-ie8/polyfill-lt-ie10.js"></script>
+<![endif]-->
+<!-- es6-shim es6-shim/es6-sham-->
+<!--[if lte IE 11]>
+<script src="/base/vendor/support-ie8/polyfill-lte-ie11.js"></script>
+<![endif]-->
+<script src="/base/vendor/support-ie8/es6-promise.auto.js"></script>
+
+
+<title>icons</title>
+<link rel="stylesheet" type="text/css" href="https://unpkg.com/markrun-themes@latest/box.css" />
+<style>.hljs{display:block;overflow-x:auto;padding:0.5em;color:#abb2bf;background:#282c34}.hljs-comment,.hljs-quote{color:#5c6370;font-style:italic}.hljs-doctag,.hljs-keyword,.hljs-formula{color:#c678dd}.hljs-section,.hljs-name,.hljs-selector-tag,.hljs-deletion,.hljs-subst{color:#e06c75}.hljs-literal{color:#56b6c2}.hljs-string,.hljs-regexp,.hljs-addition,.hljs-attribute,.hljs-meta-string{color:#98c379}.hljs-built_in,.hljs-class .hljs-title{color:#e6c07b}.hljs-attr,.hljs-variable,.hljs-template-variable,.hljs-type,.hljs-selector-class,.hljs-selector-attr,.hljs-selector-pseudo,.hljs-number{color:#d19a66}.hljs-symbol,.hljs-bullet,.hljs-link,.hljs-meta,.hljs-selector-id,.hljs-title{color:#61aeee}.hljs-emphasis{font-style:italic}.hljs-strong{font-weight:bold}.hljs-link{text-decoration:underline}</style></head>
+<body>
+<h1 id="icons" ><a class="markrun-anchor" href="#icons"><span class="markrun-anchor-link"></span></a>icons</h1><p>使用 <a href="http://iconfont.cn/">http://iconfont.cn/</a> 维护和管理 icon,项目权限请找项目前端负责人要。</p>
+<blockquote>
+<p>可以先阅读： <a href="https://github.com/thx/iconfont-plus/issues/390">https://github.com/thx/iconfont-plus/issues/390</a></p>
+</blockquote>
+<p>每次将 iconfont.cn 中 <code>Font class</code> 代码粘贴到 index.less 后需要在项目根目录运行</p>
+<pre><code>npm <span class="hljs-keyword">run</span><span class="bash"> iconfont</span>
+</code></pre><p>将 iconfont.cn 生成的 <code>Font class</code> 代码转化为 less 代码。</p>
+<div class="markrun markrun--html">
+<div class="markrun-html"></div>
+<div class="markrun-code">
+<div class="m-icons-example"></div></div>
+<div class="markrun-source">
+<pre><code class="lang-html"><span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">className</span>=<span class="hljs-string">"m-icons-example"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+<span class="hljs-comment">&lt;!--class:
+.m-icons-example </span></span><span class="hljs-template-variable">{}</span><span class="xml"><span class="hljs-comment">
+--&gt;</span></span>
+</code></pre></div>
+</div>
+<link rel="stylesheet" href="./index.demo.less">
+<p><a href="./index.demo.less">./index.demo.less</a></p>
+<h2 id="重要说明(检查尺寸和class)" ><a class="markrun-anchor" href="#重要说明(检查尺寸和class)"><span class="markrun-anchor-link"></span></a>重要说明(检查尺寸和class)</h2><ul>
+<li>内边距必须有1个格子的距离 （必须）</li>
+<li>不允许 Font Class 是拼音（必须）</li>
+<li>图标居中 （建议）</li>
+</ul>
+<blockquote>
+<p>如果做不到以上三点，最终图标在页面中会需要反复修改 <code>font-size</code> 和 <code>position</code> 来让多个图标对齐和大小一致</p>
+</blockquote>
+<ul>
+<li>Font Class 不允许使用大写字母</li>
+<li><code>@icon-error: &quot;\e601&quot;;</code> 当要使用单独的字符编码时 请使用对应的变量 <code>@icon-error</code>，千万不要直接使用 <code>&quot;\e601&quot;</code></li>
+</ul>
+<p><img src="/m/icons/edit.gif" style="width:300px;"  alt="" /></p><script>
+document.write('<sc' + 'ript src="/dev.js"></sc' + 'ript>')
+</script>
+<script src="https://unpkg.com/clipboard@1.6.1/dist/clipboard.min.js" ></script>
+<script src="https://unpkg.com/markrun-themes@latest/box.js"></script>
+<script>document.write('<script data-fastbuild-livereload="true" src="http://' + (location.host || 'localhost').split(':')[0] + ':22277/livereload.js?snipver=1"></' + 'script>')</script> </body>
+</html>

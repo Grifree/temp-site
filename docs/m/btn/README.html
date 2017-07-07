@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" ></meta>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no" />
+    <meta name="format-detection" content="telphone=no, email=no"/>
+    <!--<script src="/m/rem/meta.js"></script>-->
+    <link rel="shortcut icon" href="/view/common/favicon.ico" />
+    <link rel="stylesheet" href="/view/common/index.css">
+    <meta name="keywords" content="">
+    <meta name="description"  content="">
+    <!-- Polyfills -->
+<!-- console-polyfill es5-shim es5-shim/es5-sham es6-shim es6-shim/es6-sham html5shiv media-match -->
+<!--[if lt IE 10]>
+<script src="/base/vendor/support-ie8/polyfill-lt-ie10.js"></script>
+<![endif]-->
+<!-- es6-shim es6-shim/es6-sham-->
+<!--[if lte IE 11]>
+<script src="/base/vendor/support-ie8/polyfill-lte-ie11.js"></script>
+<![endif]-->
+<script src="/base/vendor/support-ie8/es6-promise.auto.js"></script>
+
+
+<title>btn</title>
+<link rel="stylesheet" type="text/css" href="https://unpkg.com/markrun-themes@latest/box.css" />
+<style>.hljs{display:block;overflow-x:auto;padding:0.5em;color:#abb2bf;background:#282c34}.hljs-comment,.hljs-quote{color:#5c6370;font-style:italic}.hljs-doctag,.hljs-keyword,.hljs-formula{color:#c678dd}.hljs-section,.hljs-name,.hljs-selector-tag,.hljs-deletion,.hljs-subst{color:#e06c75}.hljs-literal{color:#56b6c2}.hljs-string,.hljs-regexp,.hljs-addition,.hljs-attribute,.hljs-meta-string{color:#98c379}.hljs-built_in,.hljs-class .hljs-title{color:#e6c07b}.hljs-attr,.hljs-variable,.hljs-template-variable,.hljs-type,.hljs-selector-class,.hljs-selector-attr,.hljs-selector-pseudo,.hljs-number{color:#d19a66}.hljs-symbol,.hljs-bullet,.hljs-link,.hljs-meta,.hljs-selector-id,.hljs-title{color:#61aeee}.hljs-emphasis{font-style:italic}.hljs-strong{font-weight:bold}.hljs-link{text-decoration:underline}</style></head>
+<body>
+<h1 id="btn" ><a class="markrun-anchor" href="#btn"><span class="markrun-anchor-link"></span></a>btn</h1><div class="markrun markrun--html">
+<div class="markrun-html"></div>
+<div class="markrun-code">
+<link rel="stylesheet" href="/m/btn/index.css"></div>
+<div class="markrun-source">
+<pre><code class="lang-html"><span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">link</span> <span class="hljs-attr">rel</span>=<span class="hljs-string">"stylesheet"</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"./index.less"</span>&gt;</span>
+<span class="hljs-comment">&lt;!--class:
+ </span></span><span class="hljs-template-variable">{}</span><span class="xml"><span class="hljs-comment">
+--&gt;</span></span>
+</code></pre></div>
+</div>
+<h2 id="a/span/button" ><a class="markrun-anchor" href="#a/span/button"><span class="markrun-anchor-link"></span></a>a/span/button</h2><div class="markrun markrun--html">
+<div class="markrun-html"></div>
+<div class="markrun-code">
+<a href="#" class="m-btn">a.m-btn</a>
+<span href="#" class="m-btn">span.m-btn</span>
+<button type="button" href="#" class="m-btn">button.m-btn</button></div>
+<div class="markrun-source">
+<pre><code class="lang-html"><span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span> <span class="hljs-attr">className</span>=<span class="hljs-string">"m-btn"</span>&gt;</span>a.m-btn<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span> <span class="hljs-attr">className</span>=<span class="hljs-string">"m-btn"</span>&gt;</span>span.m-btn<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"button"</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span> <span class="hljs-attr">className</span>=<span class="hljs-string">"m-btn"</span>&gt;</span>button.m-btn<span class="hljs-tag">&lt;/<span class="hljs-name">button</span>&gt;</span>
+<span class="hljs-comment">&lt;!--class:
+.m-btn </span></span><span class="hljs-template-variable">{}</span><span class="xml"><span class="hljs-comment">
+--&gt;</span></span>
+</code></pre></div>
+</div>
+<h2 id="disabled" ><a class="markrun-anchor" href="#disabled"><span class="markrun-anchor-link"></span></a>disabled</h2><div class="markrun markrun--html">
+<div class="markrun-html"></div>
+<div class="markrun-code">
+<span class="m-btn m-btn--disabled" disabled="disabled">m-btn--disabled</span></div>
+<div class="markrun-source">
+<pre><code class="lang-html"><span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">className</span>=<span class="hljs-string">"m-btn m-btn--disabled"</span> <span class="hljs-attr">disabled</span>=<span class="hljs-string">"disabled"</span>&gt;</span>m-btn--disabled<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+<span class="hljs-comment">&lt;!--class:
+.m-btn </span></span><span class="hljs-template-variable">{}</span><span class="xml"><span class="hljs-comment">
+.m-btn--disabled </span></span><span class="hljs-template-variable">{}</span><span class="xml"><span class="hljs-comment">
+--&gt;</span></span>
+</code></pre></div>
+</div>
+<h2 id="color" ><a class="markrun-anchor" href="#color"><span class="markrun-anchor-link"></span></a>color</h2><p><div class="markrun markrun--html">
+<div class="markrun-html"></div>
+<div class="markrun-code">
+<span class="m-btn m-btn--link" >m-btn--link</span>
+<span class="m-btn m-btn--text" >m-btn--text</span>
+<span class="m-btn" >default</span></div>
+<div class="markrun-source">
+<pre><code class="lang-html"><span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">className</span>=<span class="hljs-string">"m-btn m-btn--link"</span> &gt;</span>m-btn--link<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">className</span>=<span class="hljs-string">"m-btn m-btn--text"</span> &gt;</span>m-btn--text<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">className</span>=<span class="hljs-string">"m-btn"</span> &gt;</span>default<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+<span class="hljs-comment">&lt;!--class:
+.m-btn </span></span><span class="hljs-template-variable">{}</span><span class="xml"><span class="hljs-comment">
+.m-btn--link </span></span><span class="hljs-template-variable">{}</span><span class="xml"><span class="hljs-comment">
+.m-btn--text </span></span><span class="hljs-template-variable">{}</span><span class="xml"><span class="hljs-comment">
+--&gt;</span></span>
+</code></pre></div>
+</div>
+<div class="markrun markrun--html">
+<div class="markrun-html"></div>
+<div class="markrun-code">
+<span class="m-btn m-btn--primary" >m-btn--primary</span>
+<span class="m-btn m-btn--success" >m-btn--success</span>
+<span class="m-btn m-btn--info" >m-btn--info</span>
+<span class="m-btn m-btn--warning" >m-btn--warning</span>
+<span class="m-btn m-btn--danger" >m-btn--danger</span></div>
+<div class="markrun-source">
+<pre><code class="lang-html"><span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">className</span>=<span class="hljs-string">"m-btn m-btn--primary"</span> &gt;</span>m-btn--primary<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">className</span>=<span class="hljs-string">"m-btn m-btn--success"</span> &gt;</span>m-btn--success<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">className</span>=<span class="hljs-string">"m-btn m-btn--info"</span> &gt;</span>m-btn--info<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">className</span>=<span class="hljs-string">"m-btn m-btn--warning"</span> &gt;</span>m-btn--warning<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">className</span>=<span class="hljs-string">"m-btn m-btn--danger"</span> &gt;</span>m-btn--danger<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+<span class="hljs-comment">&lt;!--class:
+.m-btn </span></span><span class="hljs-template-variable">{}</span><span class="xml"><span class="hljs-comment">
+.m-btn--primary </span></span><span class="hljs-template-variable">{}</span><span class="xml"><span class="hljs-comment">
+.m-btn--success </span></span><span class="hljs-template-variable">{}</span><span class="xml"><span class="hljs-comment">
+.m-btn--info </span></span><span class="hljs-template-variable">{}</span><span class="xml"><span class="hljs-comment">
+.m-btn--warning </span></span><span class="hljs-template-variable">{}</span><span class="xml"><span class="hljs-comment">
+.m-btn--danger </span></span><span class="hljs-template-variable">{}</span><span class="xml"><span class="hljs-comment">
+--&gt;</span></span>
+</code></pre></div>
+</div>
+<div class="markrun markrun--html">
+<div class="markrun-html"></div>
+<div class="markrun-code">
+<span class="m-btn m-btn--primary2" >m-btn--primary2</span>
+<span class="m-btn m-btn--success2" >m-btn--success2</span>
+<span class="m-btn m-btn--info2" >m-btn--info2</span>
+<span class="m-btn m-btn--warning2" >m-btn--warning2</span>
+<span class="m-btn m-btn--danger2" >m-btn--danger2</span></div>
+<div class="markrun-source">
+<pre><code class="lang-html"><span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">className</span>=<span class="hljs-string">"m-btn m-btn--primary2"</span> &gt;</span>m-btn--primary2<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">className</span>=<span class="hljs-string">"m-btn m-btn--success2"</span> &gt;</span>m-btn--success2<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">className</span>=<span class="hljs-string">"m-btn m-btn--info2"</span> &gt;</span>m-btn--info2<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">className</span>=<span class="hljs-string">"m-btn m-btn--warning2"</span> &gt;</span>m-btn--warning2<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">className</span>=<span class="hljs-string">"m-btn m-btn--danger2"</span> &gt;</span>m-btn--danger2<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+<span class="hljs-comment">&lt;!--class:
+.m-btn </span></span><span class="hljs-template-variable">{}</span><span class="xml"><span class="hljs-comment">
+.m-btn--primary2 </span></span><span class="hljs-template-variable">{}</span><span class="xml"><span class="hljs-comment">
+.m-btn--success2 </span></span><span class="hljs-template-variable">{}</span><span class="xml"><span class="hljs-comment">
+.m-btn--info2 </span></span><span class="hljs-template-variable">{}</span><span class="xml"><span class="hljs-comment">
+.m-btn--warning2 </span></span><span class="hljs-template-variable">{}</span><span class="xml"><span class="hljs-comment">
+.m-btn--danger2 </span></span><span class="hljs-template-variable">{}</span><span class="xml"><span class="hljs-comment">
+--&gt;</span></span>
+</code></pre></div>
+</div></p>
+<h2 id="size" ><a class="markrun-anchor" href="#size"><span class="markrun-anchor-link"></span></a>size</h2><h3 id="span" ><a class="markrun-anchor" href="#span"><span class="markrun-anchor-link"></span></a>span</h3><div class="markrun markrun--html">
+<div class="markrun-html"></div>
+<div class="markrun-code">
+<span class="m-btn" >default</span>
+<span class="m-btn m-btn--1 m-btn--primary" >m-btn--1</span>
+<span class="m-btn m-btn--2 m-btn--success" >m-btn--2</span>
+<span class="m-btn m-btn--3 m-btn--info" >m-btn--3</span>
+<span class="m-btn m-btn--4 m-btn--warning" >m-btn--4</span>
+<span class="m-btn m-btn--5 m-btn--danger" >m-btn--5</span>
+<span class="m-btn m-btn--6 m-btn--primary" >m-btn--6</span>
+<span class="m-btn m-btn--7 m-btn--success" >m-btn--7</span>
+<span class="m-btn m-btn--8 m-btn--info" >m-btn--8</span>
+<span class="m-btn m-btn--9 m-btn--warning" >m-btn--9</span>
+<span class="m-btn m-btn--10 m-btn--danger" >m-btn--10</span>
+<span class="m-btn m-btn--11 m-btn--primary" >m-btn--11</span>
+<span class="m-btn m-btn--12 m-btn--success" >m-btn--12</span>
+<span class="m-btn m-btn--13 m-btn--info" >m-btn--13</span>
+<span class="m-btn m-btn--14 m-btn--warning" >m-btn--14</span></div>
+<div class="markrun-source">
+<pre><code class="lang-html">&lt;<span class="hljs-selector-tag">span</span> className=<span class="hljs-string">"m-btn"</span> &gt;default&lt;/span&gt;
+&lt;<span class="hljs-selector-tag">span</span> className=<span class="hljs-string">"m-btn m-btn--1 m-btn--primary"</span> &gt;m-btn--<span class="hljs-number">1</span>&lt;/span&gt;
+&lt;<span class="hljs-selector-tag">span</span> className=<span class="hljs-string">"m-btn m-btn--2 m-btn--success"</span> &gt;m-btn--<span class="hljs-number">2</span>&lt;/span&gt;
+&lt;<span class="hljs-selector-tag">span</span> className=<span class="hljs-string">"m-btn m-btn--3 m-btn--info"</span> &gt;m-btn--<span class="hljs-number">3</span>&lt;/span&gt;
+&lt;<span class="hljs-selector-tag">span</span> className=<span class="hljs-string">"m-btn m-btn--4 m-btn--warning"</span> &gt;m-btn--<span class="hljs-number">4</span>&lt;/span&gt;
+&lt;<span class="hljs-selector-tag">span</span> className=<span class="hljs-string">"m-btn m-btn--5 m-btn--danger"</span> &gt;m-btn--<span class="hljs-number">5</span>&lt;/span&gt;
+&lt;<span class="hljs-selector-tag">span</span> className=<span class="hljs-string">"m-btn m-btn--6 m-btn--primary"</span> &gt;m-btn--<span class="hljs-number">6</span>&lt;/span&gt;
+&lt;<span class="hljs-selector-tag">span</span> className=<span class="hljs-string">"m-btn m-btn--7 m-btn--success"</span> &gt;m-btn--<span class="hljs-number">7</span>&lt;/span&gt;
+&lt;<span class="hljs-selector-tag">span</span> className=<span class="hljs-string">"m-btn m-btn--8 m-btn--info"</span> &gt;m-btn--<span class="hljs-number">8</span>&lt;/span&gt;
+&lt;<span class="hljs-selector-tag">span</span> className=<span class="hljs-string">"m-btn m-btn--9 m-btn--warning"</span> &gt;m-btn--<span class="hljs-number">9</span>&lt;/span&gt;
+&lt;<span class="hljs-selector-tag">span</span> className=<span class="hljs-string">"m-btn m-btn--10 m-btn--danger"</span> &gt;m-btn--<span class="hljs-number">10</span>&lt;/span&gt;
+&lt;<span class="hljs-selector-tag">span</span> className=<span class="hljs-string">"m-btn m-btn--11 m-btn--primary"</span> &gt;m-btn--<span class="hljs-number">11</span>&lt;/span&gt;
+&lt;<span class="hljs-selector-tag">span</span> className=<span class="hljs-string">"m-btn m-btn--12 m-btn--success"</span> &gt;m-btn--<span class="hljs-number">12</span>&lt;/span&gt;
+&lt;<span class="hljs-selector-tag">span</span> className=<span class="hljs-string">"m-btn m-btn--13 m-btn--info"</span> &gt;m-btn--<span class="hljs-number">13</span>&lt;/span&gt;
+&lt;<span class="hljs-selector-tag">span</span> className=<span class="hljs-string">"m-btn m-btn--14 m-btn--warning"</span> &gt;m-btn--<span class="hljs-number">14</span>&lt;/span&gt;
+&lt;!--class:
+<span class="hljs-selector-class">.m-btn</span> {}
+<span class="hljs-selector-class">.m-btn--1</span> {}
+<span class="hljs-selector-class">.m-btn--primary</span> {}
+<span class="hljs-selector-class">.m-btn--2</span> {}
+<span class="hljs-selector-class">.m-btn--success</span> {}
+<span class="hljs-selector-class">.m-btn--3</span> {}
+<span class="hljs-selector-class">.m-btn--info</span> {}
+<span class="hljs-selector-class">.m-btn--4</span> {}
+<span class="hljs-selector-class">.m-btn--warning</span> {}
+<span class="hljs-selector-class">.m-btn--5</span> {}
+<span class="hljs-selector-class">.m-btn--danger</span> {}
+<span class="hljs-selector-class">.m-btn--6</span> {}
+<span class="hljs-selector-class">.m-btn--7</span> {}
+<span class="hljs-selector-class">.m-btn--8</span> {}
+<span class="hljs-selector-class">.m-btn--9</span> {}
+<span class="hljs-selector-class">.m-btn--10</span> {}
+<span class="hljs-selector-class">.m-btn--11</span> {}
+<span class="hljs-selector-class">.m-btn--12</span> {}
+<span class="hljs-selector-class">.m-btn--13</span> {}
+<span class="hljs-selector-class">.m-btn--14</span> {}
+--&gt;
+</code></pre></div>
+</div>
+<h3 id="a" ><a class="markrun-anchor" href="#a"><span class="markrun-anchor-link"></span></a>a</h3><div class="markrun markrun--html">
+<div class="markrun-html"></div>
+<div class="markrun-code">
+<a href="#" class="m-btn" >default</a>
+<a href="#" class="m-btn m-btn--1" >m-btn--1</a>
+<a href="#" class="m-btn m-btn--2" >m-btn--2</a>
+<a href="#" class="m-btn m-btn--3" >m-btn--3</a>
+<a href="#" class="m-btn m-btn--4" >m-btn--4</a>
+<a href="#" class="m-btn m-btn--5" >m-btn--5</a>
+<a href="#" class="m-btn m-btn--6" >m-btn--6</a>
+<a href="#" class="m-btn m-btn--7" >m-btn--7</a>
+<a href="#" class="m-btn m-btn--8" >m-btn--8</a>
+<a href="#" class="m-btn m-btn--9" >m-btn--9</a>
+<a href="#" class="m-btn m-btn--10" >m-btn--10</a>
+<a href="#" class="m-btn m-btn--11" >m-btn--11</a>
+<a href="#" class="m-btn m-btn--12" >m-btn--12</a>
+<a href="#" class="m-btn m-btn--13" >m-btn--13</a>
+<a href="#" class="m-btn m-btn--14" >m-btn--14</a></div>
+<div class="markrun-source">
+<pre><code class="lang-html">&lt;<span class="hljs-selector-tag">a</span> href=<span class="hljs-string">"#"</span> className=<span class="hljs-string">"m-btn"</span> &gt;default&lt;/a&gt;
+&lt;<span class="hljs-selector-tag">a</span> href=<span class="hljs-string">"#"</span> className=<span class="hljs-string">"m-btn m-btn--1"</span> &gt;m-btn--<span class="hljs-number">1</span>&lt;/a&gt;
+&lt;<span class="hljs-selector-tag">a</span> href=<span class="hljs-string">"#"</span> className=<span class="hljs-string">"m-btn m-btn--2"</span> &gt;m-btn--<span class="hljs-number">2</span>&lt;/a&gt;
+&lt;<span class="hljs-selector-tag">a</span> href=<span class="hljs-string">"#"</span> className=<span class="hljs-string">"m-btn m-btn--3"</span> &gt;m-btn--<span class="hljs-number">3</span>&lt;/a&gt;
+&lt;<span class="hljs-selector-tag">a</span> href=<span class="hljs-string">"#"</span> className=<span class="hljs-string">"m-btn m-btn--4"</span> &gt;m-btn--<span class="hljs-number">4</span>&lt;/a&gt;
+&lt;<span class="hljs-selector-tag">a</span> href=<span class="hljs-string">"#"</span> className=<span class="hljs-string">"m-btn m-btn--5"</span> &gt;m-btn--<span class="hljs-number">5</span>&lt;/a&gt;
+&lt;<span class="hljs-selector-tag">a</span> href=<span class="hljs-string">"#"</span> className=<span class="hljs-string">"m-btn m-btn--6"</span> &gt;m-btn--<span class="hljs-number">6</span>&lt;/a&gt;
+&lt;<span class="hljs-selector-tag">a</span> href=<span class="hljs-string">"#"</span> className=<span class="hljs-string">"m-btn m-btn--7"</span> &gt;m-btn--<span class="hljs-number">7</span>&lt;/a&gt;
+&lt;<span class="hljs-selector-tag">a</span> href=<span class="hljs-string">"#"</span> className=<span class="hljs-string">"m-btn m-btn--8"</span> &gt;m-btn--<span class="hljs-number">8</span>&lt;/a&gt;
+&lt;<span class="hljs-selector-tag">a</span> href=<span class="hljs-string">"#"</span> className=<span class="hljs-string">"m-btn m-btn--9"</span> &gt;m-btn--<span class="hljs-number">9</span>&lt;/a&gt;
+&lt;<span class="hljs-selector-tag">a</span> href=<span class="hljs-string">"#"</span> className=<span class="hljs-string">"m-btn m-btn--10"</span> &gt;m-btn--<span class="hljs-number">10</span>&lt;/a&gt;
+&lt;<span class="hljs-selector-tag">a</span> href=<span class="hljs-string">"#"</span> className=<span class="hljs-string">"m-btn m-btn--11"</span> &gt;m-btn--<span class="hljs-number">11</span>&lt;/a&gt;
+&lt;<span class="hljs-selector-tag">a</span> href=<span class="hljs-string">"#"</span> className=<span class="hljs-string">"m-btn m-btn--12"</span> &gt;m-btn--<span class="hljs-number">12</span>&lt;/a&gt;
+&lt;<span class="hljs-selector-tag">a</span> href=<span class="hljs-string">"#"</span> className=<span class="hljs-string">"m-btn m-btn--13"</span> &gt;m-btn--<span class="hljs-number">13</span>&lt;/a&gt;
+&lt;<span class="hljs-selector-tag">a</span> href=<span class="hljs-string">"#"</span> className=<span class="hljs-string">"m-btn m-btn--14"</span> &gt;m-btn--<span class="hljs-number">14</span>&lt;/a&gt;
+&lt;!--class:
+<span class="hljs-selector-class">.m-btn</span> {}
+<span class="hljs-selector-class">.m-btn--1</span> {}
+<span class="hljs-selector-class">.m-btn--2</span> {}
+<span class="hljs-selector-class">.m-btn--3</span> {}
+<span class="hljs-selector-class">.m-btn--4</span> {}
+<span class="hljs-selector-class">.m-btn--5</span> {}
+<span class="hljs-selector-class">.m-btn--6</span> {}
+<span class="hljs-selector-class">.m-btn--7</span> {}
+<span class="hljs-selector-class">.m-btn--8</span> {}
+<span class="hljs-selector-class">.m-btn--9</span> {}
+<span class="hljs-selector-class">.m-btn--10</span> {}
+<span class="hljs-selector-class">.m-btn--11</span> {}
+<span class="hljs-selector-class">.m-btn--12</span> {}
+<span class="hljs-selector-class">.m-btn--13</span> {}
+<span class="hljs-selector-class">.m-btn--14</span> {}
+--&gt;
+</code></pre></div>
+</div>
+<h3 id="button" ><a class="markrun-anchor" href="#button"><span class="markrun-anchor-link"></span></a>button</h3><div class="markrun markrun--html">
+<div class="markrun-html"></div>
+<div class="markrun-code">
+<button type="button" class="m-btn" >default</button>
+<button type="button" class="m-btn m-btn--1" >m-btn--1</button>
+<button type="button" class="m-btn m-btn--2" >m-btn--2</button>
+<button type="button" class="m-btn m-btn--3" >m-btn--3</button>
+<button type="button" class="m-btn m-btn--4" >m-btn--4</button>
+<button type="button" class="m-btn m-btn--5" >m-btn--5</button>
+<button type="button" class="m-btn m-btn--6" >m-btn--6</button>
+<button type="button" class="m-btn m-btn--7" >m-btn--7</button>
+<button type="button" class="m-btn m-btn--8" >m-btn--8</button>
+<button type="button" class="m-btn m-btn--9" >m-btn--9</button>
+<button type="button" class="m-btn m-btn--10" >m-btn--10</button>
+<button type="button" class="m-btn m-btn--11" >m-btn--11</button>
+<button type="button" class="m-btn m-btn--12" >m-btn--12</button>
+<button type="button" class="m-btn m-btn--13" >m-btn--13</button>
+<button type="button" class="m-btn m-btn--14" >m-btn--14</button></div>
+<div class="markrun-source">
+<pre><code class="lang-html">&lt;<span class="hljs-selector-tag">button</span> type=<span class="hljs-string">"button"</span> className=<span class="hljs-string">"m-btn"</span> &gt;default&lt;/button&gt;
+&lt;<span class="hljs-selector-tag">button</span> type=<span class="hljs-string">"button"</span> className=<span class="hljs-string">"m-btn m-btn--1"</span> &gt;m-btn--<span class="hljs-number">1</span>&lt;/button&gt;
+&lt;<span class="hljs-selector-tag">button</span> type=<span class="hljs-string">"button"</span> className=<span class="hljs-string">"m-btn m-btn--2"</span> &gt;m-btn--<span class="hljs-number">2</span>&lt;/button&gt;
+&lt;<span class="hljs-selector-tag">button</span> type=<span class="hljs-string">"button"</span> className=<span class="hljs-string">"m-btn m-btn--3"</span> &gt;m-btn--<span class="hljs-number">3</span>&lt;/button&gt;
+&lt;<span class="hljs-selector-tag">button</span> type=<span class="hljs-string">"button"</span> className=<span class="hljs-string">"m-btn m-btn--4"</span> &gt;m-btn--<span class="hljs-number">4</span>&lt;/button&gt;
+&lt;<span class="hljs-selector-tag">button</span> type=<span class="hljs-string">"button"</span> className=<span class="hljs-string">"m-btn m-btn--5"</span> &gt;m-btn--<span class="hljs-number">5</span>&lt;/button&gt;
+&lt;<span class="hljs-selector-tag">button</span> type=<span class="hljs-string">"button"</span> className=<span class="hljs-string">"m-btn m-btn--6"</span> &gt;m-btn--<span class="hljs-number">6</span>&lt;/button&gt;
+&lt;<span class="hljs-selector-tag">button</span> type=<span class="hljs-string">"button"</span> className=<span class="hljs-string">"m-btn m-btn--7"</span> &gt;m-btn--<span class="hljs-number">7</span>&lt;/button&gt;
+&lt;<span class="hljs-selector-tag">button</span> type=<span class="hljs-string">"button"</span> className=<span class="hljs-string">"m-btn m-btn--8"</span> &gt;m-btn--<span class="hljs-number">8</span>&lt;/button&gt;
+&lt;<span class="hljs-selector-tag">button</span> type=<span class="hljs-string">"button"</span> className=<span class="hljs-string">"m-btn m-btn--9"</span> &gt;m-btn--<span class="hljs-number">9</span>&lt;/button&gt;
+&lt;<span class="hljs-selector-tag">button</span> type=<span class="hljs-string">"button"</span> className=<span class="hljs-string">"m-btn m-btn--10"</span> &gt;m-btn--<span class="hljs-number">10</span>&lt;/button&gt;
+&lt;<span class="hljs-selector-tag">button</span> type=<span class="hljs-string">"button"</span> className=<span class="hljs-string">"m-btn m-btn--11"</span> &gt;m-btn--<span class="hljs-number">11</span>&lt;/button&gt;
+&lt;<span class="hljs-selector-tag">button</span> type=<span class="hljs-string">"button"</span> className=<span class="hljs-string">"m-btn m-btn--12"</span> &gt;m-btn--<span class="hljs-number">12</span>&lt;/button&gt;
+&lt;<span class="hljs-selector-tag">button</span> type=<span class="hljs-string">"button"</span> className=<span class="hljs-string">"m-btn m-btn--13"</span> &gt;m-btn--<span class="hljs-number">13</span>&lt;/button&gt;
+&lt;<span class="hljs-selector-tag">button</span> type=<span class="hljs-string">"button"</span> className=<span class="hljs-string">"m-btn m-btn--14"</span> &gt;m-btn--<span class="hljs-number">14</span>&lt;/button&gt;
+&lt;!--class:
+<span class="hljs-selector-class">.m-btn</span> {}
+<span class="hljs-selector-class">.m-btn--1</span> {}
+<span class="hljs-selector-class">.m-btn--2</span> {}
+<span class="hljs-selector-class">.m-btn--3</span> {}
+<span class="hljs-selector-class">.m-btn--4</span> {}
+<span class="hljs-selector-class">.m-btn--5</span> {}
+<span class="hljs-selector-class">.m-btn--6</span> {}
+<span class="hljs-selector-class">.m-btn--7</span> {}
+<span class="hljs-selector-class">.m-btn--8</span> {}
+<span class="hljs-selector-class">.m-btn--9</span> {}
+<span class="hljs-selector-class">.m-btn--10</span> {}
+<span class="hljs-selector-class">.m-btn--11</span> {}
+<span class="hljs-selector-class">.m-btn--12</span> {}
+<span class="hljs-selector-class">.m-btn--13</span> {}
+<span class="hljs-selector-class">.m-btn--14</span> {}
+--&gt;
+</code></pre></div>
+</div>
+<h3 id="icon" ><a class="markrun-anchor" href="#icon"><span class="markrun-anchor-link"></span></a>icon</h3><blockquote>
+<p>.m-btn-icon 默认是第一个子元素</p>
+</blockquote>
+<div class="markrun markrun--html">
+<div class="markrun-html"></div>
+<div class="markrun-code">
+<span class="m-btn m-btn--7"><span class="m-btn-icon">&hearts;</span>default</span>
+<span class="m-btn m-btn--7 m-btn--info"><span class="m-btn-icon">&hearts;</span>default</span></div>
+<div class="markrun-source">
+<pre><code class="lang-html"><span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">className</span>=<span class="hljs-string">"m-btn m-btn--7"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">className</span>=<span class="hljs-string">"m-btn-icon"</span>&gt;</span>&amp;hearts;<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>default<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">className</span>=<span class="hljs-string">"m-btn m-btn--7 m-btn--info"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">className</span>=<span class="hljs-string">"m-btn-icon"</span>&gt;</span>&amp;hearts;<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>default<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+<span class="hljs-comment">&lt;!--class:
+.m-btn </span></span><span class="hljs-template-variable">{}</span><span class="xml"><span class="hljs-comment">
+.m-btn--7 </span></span><span class="hljs-template-variable">{}</span><span class="xml"><span class="hljs-comment">
+.m-btn-icon </span></span><span class="hljs-template-variable">{}</span><span class="xml"><span class="hljs-comment">
+.m-btn--info </span></span><span class="hljs-template-variable">{}</span><span class="xml"><span class="hljs-comment">
+--&gt;</span></span>
+</code></pre></div>
+</div>
+<blockquote>
+<p>如果 .m-btn-icon 是最后一个子元素应该加上 m-btn-icon--before</p>
+</blockquote>
+<div class="markrun markrun--html">
+<div class="markrun-html"></div>
+<div class="markrun-code">
+<span class="m-btn m-btn--7">before<span class="m-btn-icon m-btn-icon--before">×</span></span>
+<span class="m-btn m-btn--7 m-btn--danger">before<span class="m-btn-icon m-btn-icon--before">×</span></span></div>
+<div class="markrun-source">
+<pre><code class="lang-html"><span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">className</span>=<span class="hljs-string">"m-btn m-btn--7"</span>&gt;</span>before<span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">className</span>=<span class="hljs-string">"m-btn-icon m-btn-icon--before"</span>&gt;</span>×<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">className</span>=<span class="hljs-string">"m-btn m-btn--7 m-btn--danger"</span>&gt;</span>before<span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">className</span>=<span class="hljs-string">"m-btn-icon m-btn-icon--before"</span>&gt;</span>×<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+<span class="hljs-comment">&lt;!--class:
+.m-btn </span></span><span class="hljs-template-variable">{}</span><span class="xml"><span class="hljs-comment">
+.m-btn--7 </span></span><span class="hljs-template-variable">{}</span><span class="xml"><span class="hljs-comment">
+.m-btn-icon </span></span><span class="hljs-template-variable">{}</span><span class="xml"><span class="hljs-comment">
+.m-btn-icon--before </span></span><span class="hljs-template-variable">{}</span><span class="xml"><span class="hljs-comment">
+.m-btn--danger </span></span><span class="hljs-template-variable">{}</span><span class="xml"><span class="hljs-comment">
+--&gt;</span></span>
+</code></pre></div>
+</div>
+<h3 id="loading" ><a class="markrun-anchor" href="#loading"><span class="markrun-anchor-link"></span></a>loading</h3><div class="markrun markrun--html">
+<div class="markrun-html"></div>
+<div class="markrun-code">
+<span class="m-btn m-btn--loading m-btn--1 m-btn--primary" >m-btn--1</span>
+<span class="m-btn m-btn--loading m-btn--2 m-btn--success" >m-btn--2</span>
+<span class="m-btn m-btn--loading m-btn--3 m-btn--info" >m-btn--3</span>
+<span class="m-btn m-btn--loading m-btn--4 m-btn--warning" >m-btn--4</span>
+<span class="m-btn m-btn--loading m-btn--5 m-btn--danger" >m-btn--5</span>
+<span class="m-btn m-btn--loading m-btn--6 m-btn--primary-o" >m-btn--6</span>
+<span class="m-btn m-btn--loading m-btn--7 m-btn--success-o" >m-btn--7</span>
+<span class="m-btn m-btn--loading m-btn--8 m-btn--info-o" >m-btn--8</span>
+<span class="m-btn m-btn--loading m-btn--9 m-btn--warning-o" >m-btn--9</span>
+<span class="m-btn m-btn--loading m-btn--10 m-btn--danger-o" >m-btn--10</span>
+<span class="m-btn m-btn--loading m-btn--11 m-btn--primary" >m-btn--11</span>
+<span class="m-btn m-btn--loading m-btn--12 m-btn--success" >m-btn--12</span>
+<span class="m-btn m-btn--loading m-btn--13 m-btn--info" >m-btn--13</span>
+<span class="m-btn m-btn--loading m-btn--14 m-btn--warning" >m-btn--14</span></div>
+<div class="markrun-source">
+<pre><code class="lang-html">&lt;<span class="hljs-selector-tag">span</span> className=<span class="hljs-string">"m-btn m-btn--loading m-btn--1 m-btn--primary"</span> &gt;m-btn--<span class="hljs-number">1</span>&lt;/span&gt;
+&lt;<span class="hljs-selector-tag">span</span> className=<span class="hljs-string">"m-btn m-btn--loading m-btn--2 m-btn--success"</span> &gt;m-btn--<span class="hljs-number">2</span>&lt;/span&gt;
+&lt;<span class="hljs-selector-tag">span</span> className=<span class="hljs-string">"m-btn m-btn--loading m-btn--3 m-btn--info"</span> &gt;m-btn--<span class="hljs-number">3</span>&lt;/span&gt;
+&lt;<span class="hljs-selector-tag">span</span> className=<span class="hljs-string">"m-btn m-btn--loading m-btn--4 m-btn--warning"</span> &gt;m-btn--<span class="hljs-number">4</span>&lt;/span&gt;
+&lt;<span class="hljs-selector-tag">span</span> className=<span class="hljs-string">"m-btn m-btn--loading m-btn--5 m-btn--danger"</span> &gt;m-btn--<span class="hljs-number">5</span>&lt;/span&gt;
+&lt;<span class="hljs-selector-tag">span</span> className=<span class="hljs-string">"m-btn m-btn--loading m-btn--6 m-btn--primary-o"</span> &gt;m-btn--<span class="hljs-number">6</span>&lt;/span&gt;
+&lt;<span class="hljs-selector-tag">span</span> className=<span class="hljs-string">"m-btn m-btn--loading m-btn--7 m-btn--success-o"</span> &gt;m-btn--<span class="hljs-number">7</span>&lt;/span&gt;
+&lt;<span class="hljs-selector-tag">span</span> className=<span class="hljs-string">"m-btn m-btn--loading m-btn--8 m-btn--info-o"</span> &gt;m-btn--<span class="hljs-number">8</span>&lt;/span&gt;
+&lt;<span class="hljs-selector-tag">span</span> className=<span class="hljs-string">"m-btn m-btn--loading m-btn--9 m-btn--warning-o"</span> &gt;m-btn--<span class="hljs-number">9</span>&lt;/span&gt;
+&lt;<span class="hljs-selector-tag">span</span> className=<span class="hljs-string">"m-btn m-btn--loading m-btn--10 m-btn--danger-o"</span> &gt;m-btn--<span class="hljs-number">10</span>&lt;/span&gt;
+&lt;<span class="hljs-selector-tag">span</span> className=<span class="hljs-string">"m-btn m-btn--loading m-btn--11 m-btn--primary"</span> &gt;m-btn--<span class="hljs-number">11</span>&lt;/span&gt;
+&lt;<span class="hljs-selector-tag">span</span> className=<span class="hljs-string">"m-btn m-btn--loading m-btn--12 m-btn--success"</span> &gt;m-btn--<span class="hljs-number">12</span>&lt;/span&gt;
+&lt;<span class="hljs-selector-tag">span</span> className=<span class="hljs-string">"m-btn m-btn--loading m-btn--13 m-btn--info"</span> &gt;m-btn--<span class="hljs-number">13</span>&lt;/span&gt;
+&lt;<span class="hljs-selector-tag">span</span> className=<span class="hljs-string">"m-btn m-btn--loading m-btn--14 m-btn--warning"</span> &gt;m-btn--<span class="hljs-number">14</span>&lt;/span&gt;
+&lt;!--class:
+<span class="hljs-selector-class">.m-btn</span> {}
+<span class="hljs-selector-class">.m-btn--loading</span> {}
+<span class="hljs-selector-class">.m-btn--1</span> {}
+<span class="hljs-selector-class">.m-btn--primary</span> {}
+<span class="hljs-selector-class">.m-btn--2</span> {}
+<span class="hljs-selector-class">.m-btn--success</span> {}
+<span class="hljs-selector-class">.m-btn--3</span> {}
+<span class="hljs-selector-class">.m-btn--info</span> {}
+<span class="hljs-selector-class">.m-btn--4</span> {}
+<span class="hljs-selector-class">.m-btn--warning</span> {}
+<span class="hljs-selector-class">.m-btn--5</span> {}
+<span class="hljs-selector-class">.m-btn--danger</span> {}
+<span class="hljs-selector-class">.m-btn--6</span> {}
+<span class="hljs-selector-class">.m-btn--primary-o</span> {}
+<span class="hljs-selector-class">.m-btn--7</span> {}
+<span class="hljs-selector-class">.m-btn--success-o</span> {}
+<span class="hljs-selector-class">.m-btn--8</span> {}
+<span class="hljs-selector-class">.m-btn--info-o</span> {}
+<span class="hljs-selector-class">.m-btn--9</span> {}
+<span class="hljs-selector-class">.m-btn--warning-o</span> {}
+<span class="hljs-selector-class">.m-btn--10</span> {}
+<span class="hljs-selector-class">.m-btn--danger-o</span> {}
+<span class="hljs-selector-class">.m-btn--11</span> {}
+<span class="hljs-selector-class">.m-btn--12</span> {}
+<span class="hljs-selector-class">.m-btn--13</span> {}
+<span class="hljs-selector-class">.m-btn--14</span> {}
+--&gt;
+</code></pre></div>
+</div>
+<h3 id="fill" ><a class="markrun-anchor" href="#fill"><span class="markrun-anchor-link"></span></a>fill</h3><div class="markrun markrun--html">
+<div class="markrun-html"></div>
+<div class="markrun-code">
+<span class="m-btn m-btn--fill m-btn--5 m-btn--danger" >m-btn--fill</span></div>
+<div class="markrun-source">
+<pre><code class="lang-html"><span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">className</span>=<span class="hljs-string">"m-btn m-btn--fill m-btn--5 m-btn--danger"</span> &gt;</span>m-btn--fill<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+<span class="hljs-comment">&lt;!--class:
+.m-btn </span></span><span class="hljs-template-variable">{}</span><span class="xml"><span class="hljs-comment">
+.m-btn--fill </span></span><span class="hljs-template-variable">{}</span><span class="xml"><span class="hljs-comment">
+.m-btn--5 </span></span><span class="hljs-template-variable">{}</span><span class="xml"><span class="hljs-comment">
+.m-btn--danger </span></span><span class="hljs-template-variable">{}</span><span class="xml"><span class="hljs-comment">
+--&gt;</span></span>
+</code></pre></div>
+</div><script>
+document.write('<sc' + 'ript src="/dev.js"></sc' + 'ript>')
+</script>
+<script src="https://unpkg.com/clipboard@1.6.1/dist/clipboard.min.js" ></script>
+<script src="https://unpkg.com/markrun-themes@latest/box.js"></script>
+<script>document.write('<script data-fastbuild-livereload="true" src="http://' + (location.host || 'localhost').split(':')[0] + ':22277/livereload.js?snipver=1"></' + 'script>')</script> </body>
+</html>

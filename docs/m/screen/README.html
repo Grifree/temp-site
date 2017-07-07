@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" ></meta>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no" />
+    <meta name="format-detection" content="telphone=no, email=no"/>
+    <!--<script src="/m/rem/meta.js"></script>-->
+    <link rel="shortcut icon" href="/view/common/favicon.ico" />
+    <link rel="stylesheet" href="/view/common/index.css">
+    <meta name="keywords" content="">
+    <meta name="description"  content="">
+    <!-- Polyfills -->
+<!-- console-polyfill es5-shim es5-shim/es5-sham es6-shim es6-shim/es6-sham html5shiv media-match -->
+<!--[if lt IE 10]>
+<script src="/base/vendor/support-ie8/polyfill-lt-ie10.js"></script>
+<![endif]-->
+<!-- es6-shim es6-shim/es6-sham-->
+<!--[if lte IE 11]>
+<script src="/base/vendor/support-ie8/polyfill-lte-ie11.js"></script>
+<![endif]-->
+<script src="/base/vendor/support-ie8/es6-promise.auto.js"></script>
+
+
+<title>screen 首页全屏界面</title>
+<link rel="stylesheet" type="text/css" href="https://unpkg.com/markrun-themes@latest/box.css" />
+<style>.hljs{display:block;overflow-x:auto;padding:0.5em;color:#abb2bf;background:#282c34}.hljs-comment,.hljs-quote{color:#5c6370;font-style:italic}.hljs-doctag,.hljs-keyword,.hljs-formula{color:#c678dd}.hljs-section,.hljs-name,.hljs-selector-tag,.hljs-deletion,.hljs-subst{color:#e06c75}.hljs-literal{color:#56b6c2}.hljs-string,.hljs-regexp,.hljs-addition,.hljs-attribute,.hljs-meta-string{color:#98c379}.hljs-built_in,.hljs-class .hljs-title{color:#e6c07b}.hljs-attr,.hljs-variable,.hljs-template-variable,.hljs-type,.hljs-selector-class,.hljs-selector-attr,.hljs-selector-pseudo,.hljs-number{color:#d19a66}.hljs-symbol,.hljs-bullet,.hljs-link,.hljs-meta,.hljs-selector-id,.hljs-title{color:#61aeee}.hljs-emphasis{font-style:italic}.hljs-strong{font-weight:bold}.hljs-link{text-decoration:underline}</style></head>
+<body>
+<h1 id="screen 首页全屏界面" ><a class="markrun-anchor" href="#screen 首页全屏界面"><span class="markrun-anchor-link"></span></a>screen 首页全屏界面</h1><link rel="stylesheet" href="/m/screen/index.css">
+<div class="markrun markrun--html">
+<div class="markrun-html"></div>
+<div class="markrun-code">
+<div class="m-screen m-screen--split" id="m_screen__split">
+    <div class="m-screen-bd">
+        <div class="m-screen-bd-hd">每个人都是一座孤岛，唯有组成部落，才能各取所需。</div>
+        <div class="m-screen-bd-title">数字化时代，玩的就是算法和套路</div>
+        <div class="m-screen-bd-text">正和岛数字营销部落七月公开课</div>
+        <div class="m-screen-bd-link">
+            Ask us now
+            <span class="m-screen-bd-link-icon"></span>
+        </div>
+        <a href="#" class="m-screen-bd-tool m-screen-bd-tool--bottom">
+            向<br/>下<br/>滑<br/>
+            <span class="m-screen-bd-tool-icon"></span>
+        </a>
+    </div>
+    <div class="m-screen-bg">
+        <div class="m-screen-bg-mark"></div>
+        <video class="m-screen-bg-video" id="m-screen-bg-video" autoplay loop src="/m/screen/image/bg.mp4">
+        </video>
+    </div>
+</div></div>
+<div class="markrun-source">
+<pre><code class="lang-html">&lt;<span class="hljs-selector-tag">div</span> className=<span class="hljs-string">"m-screen m-screen--split"</span> id=<span class="hljs-string">"m_screen__split"</span>&gt;
+    &lt;<span class="hljs-selector-tag">div</span> className=<span class="hljs-string">"m-screen-bd"</span>&gt;
+        &lt;<span class="hljs-selector-tag">div</span> className=<span class="hljs-string">"m-screen-bd-hd"</span>&gt;每个人都是一座孤岛，唯有组成部落，才能各取所需。&lt;/div&gt;
+        &lt;<span class="hljs-selector-tag">div</span> className=<span class="hljs-string">"m-screen-bd-title"</span>&gt;数字化时代，玩的就是算法和套路&lt;/div&gt;
+        &lt;<span class="hljs-selector-tag">div</span> className=<span class="hljs-string">"m-screen-bd-text"</span>&gt;正和岛数字营销部落七月公开课&lt;/div&gt;
+        &lt;<span class="hljs-selector-tag">div</span> className=<span class="hljs-string">"m-screen-bd-link"</span>&gt;
+            Ask us now
+            &lt;<span class="hljs-selector-tag">span</span> className=<span class="hljs-string">"m-screen-bd-link-icon"</span>&gt;&lt;/span&gt;
+        &lt;/div&gt;
+        &lt;<span class="hljs-selector-tag">a</span> href=<span class="hljs-string">"#"</span> className=<span class="hljs-string">"m-screen-bd-tool m-screen-bd-tool--bottom"</span>&gt;
+            向&lt;br/&gt;下&lt;br/&gt;滑&lt;br/&gt;
+            &lt;<span class="hljs-selector-tag">span</span> className=<span class="hljs-string">"m-screen-bd-tool-icon"</span>&gt;&lt;/span&gt;
+        &lt;/a&gt;
+    &lt;/div&gt;
+    &lt;<span class="hljs-selector-tag">div</span> className=<span class="hljs-string">"m-screen-bg"</span>&gt;
+        &lt;<span class="hljs-selector-tag">div</span> className=<span class="hljs-string">"m-screen-bg-mark"</span>&gt;&lt;/div&gt;
+        &lt;<span class="hljs-selector-tag">video</span> className=<span class="hljs-string">"m-screen-bg-video"</span> id=<span class="hljs-string">"m-screen-bg-video"</span> autoplay loop src=<span class="hljs-string">"./image/bg.mp4"</span>&gt;
+        &lt;/video&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--class:
+<span class="hljs-selector-class">.m-screen</span> {}
+<span class="hljs-selector-class">.m-screen--split</span> {}
+<span class="hljs-selector-class">.m-screen-bd</span> {}
+<span class="hljs-selector-class">.m-screen-bd-hd</span> {}
+<span class="hljs-selector-class">.m-screen-bd-title</span> {}
+<span class="hljs-selector-class">.m-screen-bd-text</span> {}
+<span class="hljs-selector-class">.m-screen-bd-link</span> {}
+<span class="hljs-selector-class">.m-screen-bd-link-icon</span> {}
+<span class="hljs-selector-class">.m-screen-bd-tool</span> {}
+<span class="hljs-selector-class">.m-screen-bd-tool--bottom</span> {}
+<span class="hljs-selector-class">.m-screen-bd-tool-icon</span> {}
+<span class="hljs-selector-class">.m-screen-bg</span> {}
+<span class="hljs-selector-class">.m-screen-bg-mark</span> {}
+<span class="hljs-selector-class">.m-screen-bg-video</span> {}
+--&gt;
+</code></pre></div>
+</div>
+<div class="markrun markrun--html">
+<div class="markrun-html"></div>
+<div class="markrun-code">
+<div class="m-screen">
+    <div class="m-screen-bd">
+        <div class="m-screen-bd-cnt">数字营销部落作为正和岛新秀部落，致力于研究数字营销生态，完善企业数字营销方案。</div>
+        <div class="m-screen-bd-tool m-screen-bd-tool--top">
+            <a href="#" class="m-screen-bd-tool-btn"></a>
+        </div>
+    </div>
+    <div class="m-screen-bg">
+        <div class="m-screen-bg-mark m-screen-bg-mark--ios"></div>
+        <video class="m-screen-bg-video" autoplay loop src="/m/screen/image/bg.mp4">
+        </video>
+    </div>
+</div></div>
+<div class="markrun-source">
+<pre><code class="lang-html"><span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">className</span>=<span class="hljs-string">"m-screen"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">className</span>=<span class="hljs-string">"m-screen-bd"</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">className</span>=<span class="hljs-string">"m-screen-bd-cnt"</span>&gt;</span>数字营销部落作为正和岛新秀部落，致力于研究数字营销生态，完善企业数字营销方案。<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">className</span>=<span class="hljs-string">"m-screen-bd-tool m-screen-bd-tool--top"</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span> <span class="hljs-attr">className</span>=<span class="hljs-string">"m-screen-bd-tool-btn"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">className</span>=<span class="hljs-string">"m-screen-bg"</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">className</span>=<span class="hljs-string">"m-screen-bg-mark m-screen-bg-mark--ios"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">video</span> <span class="hljs-attr">className</span>=<span class="hljs-string">"m-screen-bg-video"</span> <span class="hljs-attr">autoplay</span> <span class="hljs-attr">loop</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"./image/bg.mp4"</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">video</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+<span class="hljs-comment">&lt;!--class:
+.m-screen </span></span><span class="hljs-template-variable">{}</span><span class="xml"><span class="hljs-comment">
+.m-screen-bd </span></span><span class="hljs-template-variable">{}</span><span class="xml"><span class="hljs-comment">
+.m-screen-bd-cnt </span></span><span class="hljs-template-variable">{}</span><span class="xml"><span class="hljs-comment">
+.m-screen-bd-tool </span></span><span class="hljs-template-variable">{}</span><span class="xml"><span class="hljs-comment">
+.m-screen-bd-tool--top </span></span><span class="hljs-template-variable">{}</span><span class="xml"><span class="hljs-comment">
+.m-screen-bd-tool-btn </span></span><span class="hljs-template-variable">{}</span><span class="xml"><span class="hljs-comment">
+.m-screen-bg </span></span><span class="hljs-template-variable">{}</span><span class="xml"><span class="hljs-comment">
+.m-screen-bg-mark </span></span><span class="hljs-template-variable">{}</span><span class="xml"><span class="hljs-comment">
+.m-screen-bg-mark--ios </span></span><span class="hljs-template-variable">{}</span><span class="xml"><span class="hljs-comment">
+.m-screen-bg-video </span></span><span class="hljs-template-variable">{}</span><span class="xml"><span class="hljs-comment">
+--&gt;</span></span>
+</code></pre></div>
+</div>
+<div class="markrun markrun--js">
+<div class="markrun-html"></div>
+<div class="markrun-code">
+</div>
+<div class="markrun-source">
+<pre><code class="lang-js"><span class="hljs-comment">// js 控制全屏 + onresize</span>
+<span class="hljs-built_in">document</span>.onresize = <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>)</span>{
+    <span class="hljs-keyword">var</span> height = <span class="hljs-built_in">document</span>.documentElement.clientHeight
+    <span class="hljs-keyword">var</span> width = <span class="hljs-built_in">document</span>.documentElement.clientWidth
+    <span class="hljs-keyword">var</span> div = <span class="hljs-built_in">document</span>.getElementById(<span class="hljs-string">'m_screen__split'</span>)
+    div.style.height = height + <span class="hljs-string">'px'</span>
+    div.style.width = width + <span class="hljs-string">'px'</span>
+}
+<span class="hljs-keyword">var</span> Media=<span class="hljs-built_in">document</span>.getElementById(<span class="hljs-string">"m-screen-bg-video"</span>);
+Media.autoPlay;
+Media.loop;
+    Media.play();
+</code></pre></div>
+</div><script data-markrun-lastrun="true">
+// js 控制全屏 + onresize
+document.onresize = function(){
+    var height = document.documentElement.clientHeight
+    var width = document.documentElement.clientWidth
+    var div = document.getElementById('m_screen__split')
+    div.style.height = height + 'px'
+    div.style.width = width + 'px'
+}
+var Media=document.getElementById("m-screen-bg-video");
+Media.autoPlay;
+Media.loop;
+    Media.play();</script><script>
+document.write('<sc' + 'ript src="/dev.js"></sc' + 'ript>')
+</script>
+<script src="https://unpkg.com/clipboard@1.6.1/dist/clipboard.min.js" ></script>
+<script src="https://unpkg.com/markrun-themes@latest/box.js"></script>
+<script>document.write('<script data-fastbuild-livereload="true" src="http://' + (location.host || 'localhost').split(':')[0] + ':22277/livereload.js?snipver=1"></' + 'script>')</script> </body>
+</html>
